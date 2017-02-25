@@ -1,1 +1,37 @@
+<<<<<<< HEAD
 
+=======
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        input1
+        <input id="number1" type="text" value="1">
+        </br>
+        input 2:
+        <input id="number2" type="text" value="2">
+        </br>
+        <button id="go">My botton</button>
+        </br>Result:
+        <input id="result" type="text">
+
+        <script>
+            $(function(){
+                $('#go').click(function(){    
+//jquery
+               var n1 = parseInt($('#number1').val());
+               var n2 = parseInt($('#number2').val());
+               console.log(n1);
+               console.log(n2);
+               var r = n1 * n2;
+          $('#result').val(r);
+                });
+            });
+        </script>
+
+
+    </body>
+    </html>
+>>>>>>> master
